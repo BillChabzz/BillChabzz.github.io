@@ -57,10 +57,14 @@ section#tops{
     padding-bottom: 0px;
 
 }
+#works p{
+
+}
 nav{
 
 }
 ul{
+    text-align: center;
     list-style: none;
 
 }
@@ -78,26 +82,30 @@ ul li a{
     text-decoration: none;
     color: azure;
     padding: 15px;
+    transition: all .2s;
 
 
 }
 ul li a:hover{
     color: #ce8b0b;
+    transform: scale(1.2);
 
 }
 
-#about h2{
+#about h2 h4{
   color: #332f2f;
 }
-#about h4{
+/*#about h4{
   color: #332f2f;
-}
-#works h2{
+}*/
+#works,h2p{
     color: whitesmoke;
 }
+/*
 #works p{
     color: whitesmoke
 }
+*/
 #contact p{
  text-align: center;
 
@@ -127,13 +135,13 @@ ul li a:hover{
 .interests{
     margin-bottom: 30px;
 }
-.cp{
+.cp, .st{
     color: #333333;
 }
 
-.st {
+/*.st {
     color: #333333;
-}
+}*/
 .card {
     display: inline-block;
     vertical-align: top;
