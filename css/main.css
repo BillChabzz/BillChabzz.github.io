@@ -14,10 +14,11 @@ img{
     background-size: cover;
 }
 h2{
+    text-align: center;
     font-size: 2.5em;
     margin-top: 20px;
     margin-bottom: 5px;
-    color: #ce8b0b;
+    color: azure;
 }
 h4{
     font-size: 1em;
@@ -39,11 +40,21 @@ section{
     height: auto;
     border-bottom: darkgray solid 0.6px;
 }
+.bannertxt {
+    text-align: center;
+    font-family: lekton;
+	padding-top: 30px;
+    padding-bottom: 100px;
+}
 
 #about{
     background-color: white;
     width: auto;
     height: auto;
+}
+#about h2{
+    color: darkgray;
+
 }
 #home{
 
@@ -58,6 +69,15 @@ section{
     width: auto;
     height: auto;
 
+
+}
+#works h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#works p{
+    margin-bottom: 20px;
 
 }
 #tops{
