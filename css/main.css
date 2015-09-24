@@ -9,6 +9,9 @@ body{
 
 
 }
+b{
+    color: darkcyan
+}
 img{
 
     background-size: cover;
@@ -48,6 +51,7 @@ section{
 }
 
 #about{
+    text-align: center;
     background-color: white;
     width: auto;
     height: auto;
@@ -154,6 +158,7 @@ ul li a:hover{
 
 
 }
+
 .container.nav{
     margin-left: auto;
     margin-right: auto;
@@ -171,6 +176,10 @@ ul li a:hover{
 /*.st {
     color: #333333;
 }*/
+/*****************************card area***************/
+.card-area{
+    padding-left: 13%;
+}
 .card {
     display: inline-block;
     vertical-align: top;
