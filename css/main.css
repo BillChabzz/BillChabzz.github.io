@@ -205,14 +205,16 @@ ul li a:hover{
     border-radius: 0 0 2px 2px;
 }
 .card p {
+    font-weight: 100;
     margin: 0;
+    font-family: lekton, ;
 }
 .card a {
-    color: #512951;
     text-decoration: none;
+    color:#c39710;
 }
 .card a:hover{
-    color:#ce8b0b;
+    color: #512951;
 }
 .card .kimage {
     position: relative;
