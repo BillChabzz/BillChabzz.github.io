@@ -1,4 +1,4 @@
-body{
+body,html{
     font-size: 1em;
     font-family: sans-serif;
     margin: 0;
@@ -11,6 +11,10 @@ body{
 }
 b{
     color: darkcyan
+}
+button{
+    margin-top: 5%;
+    margin-left: 40%
 }
 img{
 
@@ -28,8 +32,10 @@ h4{
     color:#ce8b0b;
 }
 p{
-    font-size: 1em;
-    color: beige;
+    font-weight: 100;
+    font-size: 1.3em;
+    color: black;
+    font-family: lekton;
 }
 span{
     /*color: #ce8b0b;*/
@@ -55,11 +61,14 @@ section{
     background-color: white;
     width: auto;
     height: auto;
+    margin: 5% 0;
 }
 #about h2{
-    color: darkgray;
+    color: black;
+
 
 }
+
 #home{
 
     background-image: url(http://www.xara.ca/wordpress/wp-content/uploads/2013/08/minimalistic-white-fog-silver-digital-art-white-background-HD-Wallpapers.jpg);
@@ -69,13 +78,15 @@ section{
     padding-top: 50px;
 }
 #works{
-    background-color: #606060;
+    background-color: #e5e5e5;
     width: auto;
-    height: auto;
+
 
 
 }
 #works h2 {
+    font-weight: 300;
+    font-family: nixie-one;
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -125,14 +136,11 @@ ul li a:hover{
 #tops {
 	z-index: 1;
 }
-#about h2 h4{
-  color: #332f2f;
-}
-/*#about h4{
-  color: #332f2f;
-}*/
-#works,h2p{
-    color: whitesmoke;
+
+#works,h2{
+    font-weight: 300;
+    color: black;
+    font-family: nixie-one;
 }
 /*
 #works p{
@@ -152,7 +160,7 @@ ul li a:hover{
 .container{
     margin-left: auto;
     margin-right: auto;
-    max-width: 950px;
+    max-width: 1250px;
     overflow: auto;
     padding: 0;
 
@@ -169,13 +177,7 @@ ul li a:hover{
 .interests{
     margin-bottom: 30px;
 }
-.cp, .st{
-    color: #333333;
-}
 
-/*.st {
-    color: #333333;
-}*/
 /*****************************card area***************/
 .card-area{
     padding-left: 13%;
