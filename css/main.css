@@ -13,9 +13,11 @@ b{
     color: darkcyan
 }
 button{
+    padding-left: 49%;
     margin-top: 5%;
     margin-left: 40%
 }
+
 img{
 
     background-size: cover;
@@ -78,8 +80,10 @@ section{
     padding-top: 50px;
 }
 #works{
+    overflow: hidden;
     background-color: #e5e5e5;
     width: auto;
+    padding-bottom: 7%;
 
 
 
