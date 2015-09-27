@@ -16,7 +16,7 @@ button{
     height: 40px;
     width: 100px;
     margin-top: 5%;
-    margin-left: 40%;
+    margin-left: 45%;
     background-color: transparent;
     transition: .2s ease;
 }
@@ -244,7 +244,8 @@ ul li a:hover{
     width 100%;
 }
 .social{
- text-align: center
+ /*text-align: center;*/
+    margin-right: 5%;
 }
 
 .social a{
