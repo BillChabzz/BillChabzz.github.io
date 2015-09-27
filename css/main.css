@@ -91,6 +91,7 @@ section{
     padding-top: 50px;
 }
 #works{
+    height: 800px;
     overflow: hidden;
     background-color: #e5e5e5;
     width: auto;
