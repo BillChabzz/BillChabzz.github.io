@@ -98,8 +98,6 @@ section{
     width: auto;
     padding-bottom: 7%;
 
-
-
 }
 #works h2 {
     font-weight: 300;
@@ -258,4 +256,9 @@ ul li a:hover{
     color:#ce8b0b;
     text-transform: capitalize;
 
+}
+.flex {
+    margin-left: auto;
+    margin-right: auto;
+	width: 1220px;
 }
