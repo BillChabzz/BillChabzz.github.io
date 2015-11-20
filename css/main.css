@@ -1,269 +1,234 @@
 body,html{
-    font-size: 1em;
-    font-family: sans-serif;
+    position: relative;
+    scoll-behaviour:smooth;
+    -webkit-scroll-behaviour:smooth;
     margin: 0;
     padding: 0;
-    background-color: white;
-    width: auto;
-    height: auto;
-
-
-
-}
-b{
-    color: darkcyan
-}
-button{
-    height: 40px;
-    width: 100px;
-    margin-top: 5%;
-    margin-left: 45%;
-    background-color: transparent;
-    transition: .2s ease;
-}
-#alert {
-	height: 50px;
-    width: 100%;
-    margin: 0;
-}
-.vbtn a {
-    color: #008080 ;
-
-}
-button:hover{
-    background-color:gray;
-    color: white;
-}
-
-img{
-
-    background-size: cover;
-}
-h2{
-    text-align: center;
-    font-size: 2.5em;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    color: azure;
-}
-h4{
-    font-size: 1em;
-    color:#ce8b0b;
-}
-p{
-    font-weight: 100;
-    font-size: 1.3em;
-    color: black;
-    font-family: lekton;
-}
-span{
-    /*color: #ce8b0b;*/
-    padding-left: 5px;
-    padding-right: 5px;
-}
-section{
-    padding-top: 0;
-    padding-bottom: 50px;
-    width: auto;
-    height: auto;
-    border-bottom: darkgray solid 0.6px;
-}
-.bannertxt {
-    text-align: center;
-    font-family: lekton;
-	padding-top: 30px;
-    padding-bottom: 100px;
-}
-
-#about{
-    text-align: center;
-    background-color: white;
-    width: auto;
-    height: auto;
-    margin: 5% 0;
-}
-#about h2{
-    color: black;
-
-
-}
-
-#home{
-
-    background-image: url(http://www.xara.ca/wordpress/wp-content/uploads/2013/08/minimalistic-white-fog-silver-digital-art-white-background-HD-Wallpapers.jpg);
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    padding-top: 50px;
-}
-#works{
-    height: 800px;
-    overflow: hidden;
-    background-color: #e5e5e5;
-    width: auto;
-    padding-bottom: 7%;
-
-}
-#works h2 {
-    font-weight: 300;
-    font-family: nixie-one;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-}
-#works p{
-    margin-bottom: 20px;
-
-}
-#tops{
-    padding-bottom: 0px;
-
-}
-#works p{
-
-}
-nav{
-
+    font-family: poiret-one;
+    line-height: 50px;
+    font-weight: 500;
 }
 ul{
-    text-align: center;
     list-style: none;
-
-}
-ul li:hover{
-    color: #512951;
 }
 ul li{
-    display: inline;
-    padding: 5px 5px 5px 5px;
-    margin: 10px;
-
+    display: inline-block;
 
 }
 ul li a{
     text-decoration: none;
-    color: azure;
-    padding: 15px;
-    transition: all .2s;
-
-
+    color: #2c2c27;
+    padding: 30px;
+    transition: all .2s ease;
 }
-ul li a:hover{
-    color: #ce8b0b;
-    transform: scale(1.2);
-
+ul li  a:hover{
+    padding: 8px 50px;
+    background-color: #200;
+    color:#fff;
 }
-#tops {
-	z-index: 1;
-}
-
-#works,h2{
-    font-weight: 300;
-    color: black;
-    font-family: nixie-one;
-}
-/*
-#works p{
-    color: whitesmoke
-}
-*/
-#contact p{
- text-align: center;
-
-}
-#tops{
-  background-color: black;
-  position: fixed;
+header{
+    position: relative;
+    z-index: 1;
     width: 100%;
 
 }
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1250px;
-    overflow: auto;
-    padding: 0;
+section{
+    display: block;
+    height: 100%;
+}
+hr{
+    border: 1px solid #200;
+}
+footer{
+    padding-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: #200;
+    height: 130px;
+    color: #fff;
+}
+/*classes*/
+/*hero area classes and id's*/
+.arc > span{
+    font-size: 3em;
+}
+.introduction {
+    color: #fff;
+	position: relative;
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    padding-top: 90px;
+}
+.intro-txt {
+	position: relative;
+    line-height: 30px;
+    font-size: 2em;
+}
+.intro-txt .slide, h1{
 
 
 }
-
-.container.nav{
-    margin-left: auto;
-    margin-right: auto;
+.projo {
+	margin-top: 400px;
+    margin-bottom: 90px;
 }
-.intro{
-    margin-bottom: 22px;
-}
-.interests{
-    margin-bottom: 30px;
-}
-
-/*****************************card area***************/
-.card-area{
-    padding-left: 13%;
-}
-.card {
-    display: inline-block;
-    vertical-align: top;
-    width: 400px;
-    position: relative;
-    overflow: hidden;
-    margin: 0px;
+#hero a {
+    text-decoration: none;
+    text-align: center;
     background: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-    color:#272727;
+    color: #000;
 
+    margin-left:45%;
+    padding: 20px 30px;
     transition: all .2s ease-in-out;
 }
-.card:hover{
-   transform: scale(1.1);
+#hero a:hover{
+    padding: 30px 30px;
+    background-color: rgba(128,0,0,0.9);
+    color: #fff;
 
 }
-.card .kparagraph{
-    padding: 20px;
-    font-weight: 300;
-    border-radius: 0 0 2px 2px;
-}
-.card p {
-    font-weight: 100;
-    margin: 0;
-    font-family: lekton, ;
-}
-.card a {
-    text-decoration: none;
-    color:#c39710;
-}
-.card a:hover{
-    color: #512951;
-}
-.card .kimage {
-    position: relative;
-}
-.card .kimage img {
-    border-radius: 2px 2px 0 0;
-    position: relative;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width 100%;
-}
-.social{
- /*text-align: center;*/
-    margin-right: 5%;
-}
 
-.social a{
-    color:#512951;
-    text-decoration: none;
-    padding: 5px;
+/* header sections*/
+ .header-ctn {
+    z-index: 1;
+    border-bottom: 1px solid rgba(220,220,198,0.5);
+    height: 60px;
+	background-color: #fff;
+    position: fixed;
+
+    width: 100%;
+    top: 0px;
 }
-.social a:hover{
-    color:#ce8b0b;
-    text-transform: capitalize;
+.logo {
+    font-weight: 600;
+	font-family: tangerine;
+    font-size: 1.5em;
+    color: black;
+    transition: color .4s ease;
+}
+.logo:hover {
+    cursor: pointer;
+	color: #800000;
+}
+.left {
+    float: left;
+	margin-top: 17px;
+}
+.left-nb {
+	float:right;
 
 }
-.flex {
-    margin-left: auto;
-    margin-right: auto;
-	width: 1220px;
+/*projects section*/
+.card {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.card li {
+	display: inline-block;
+	width: 550px;
+	margin: 0;
+	padding: 20px;
+    padding-bottom: 30px;
+	text-align: left;
+	position: relative;
+}
+.card figure {
+	margin: 0;
+	position: relative;
+}
+.card figure img {
+	max-width: 100%;
+    width: 540px;
+	display: block;
+	position: relative;
+}
+.card figcaption {
+    width: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background:rgba(128,0,0,0.8);
+	color: #fff;
+}
+.card figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.card figcaption span:before {
+	content: 'by ';
+    color: #000;
+}
+
+.card figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 1px;
+    border: 1px solid gray;
+	display: inline-block;
+	background: #fff;
+	color: #000;
+}
+/*card hovers*/
+.style figcaption{
+	height: 100%;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    backface-visibility: hidden;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.style figcaption:hover{
+    z-index: 99999;
+    opacity: 1;
+    transform: translateY(40px);
+}
+.style figcaption h3{
+    margin-top: 70px;
+}
+.style figcaption span{
+    display: block;
+    color: ;
+}
+.style figcaption a{
+    margin-top: 30px;
+    transition: all .3s ease-in-out;
+}
+.style figcaption a:hover{
+    background: #330000;
+    color: #fff;
+
+}
+
+/***************footer ********/
+.icon{
+    color: #fff;;
+    transition: all .2s ease;
+}
+.icon:hover{
+    transform: scale(3);
+}
+/*id's styles*/
+#hero {
+    background-size: cover;
+    background:#200 ;
+	padding-top: 60px;
+}
+#work {
+	padding-top: 50px;
+}
+#about {
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 150px 0;
+    font-size: 1.5em;
 }
