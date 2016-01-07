@@ -120,7 +120,7 @@ footer{
 	float:right;
 
 }
-/*projects section*/
+/*************projects section****************/
 .card {
 	padding: 20px 20px 100px 20px;
 	max-width: 1300px;
@@ -177,7 +177,7 @@ footer{
 	background: #fff;
 	color: #000;
 }
-/*card hovers*/
+/************card hovers************/
 .style figcaption{
 	height: 100%;
     width: 100%;
