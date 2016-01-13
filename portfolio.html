@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Work</title>
+        <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/css/animsition.min.css">
+        <link rel="stylesheet" href="css/navigation-basic.css">
+	    <link rel="stylesheet" href="css/slicknav.min.css">
+
+    </head>
+    <body>
+        <div class="animsition">
+        <nav class="menu-navigation-basic">
+		<a href="index.html" class="animsition-link" class="selected" >Home</a>
+		<a href="about.html" class="animsition-link">About</a>
+		<a href="index.html" class="animsition-link">yolo</a>
+		<a href="#">Reach us</a>
+		<a href="#">About</a>
+	</nav>
+    </div>
+        <!------------------scripts----------------->
+        <!-----------load TweenMax here------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/js/animsition.min.js"></script>
+	<script src="js/slicknav/jquery.slicknav.min.js"></script>
+        <!--animsition-->
+        <script>
+  $(document).ready(function() {
+    $('.animsition').animsition();
+  });
+  </script>
+        <!--end-->
+	<script>
+
+		$(function(){
+
+	        var menu = $('.menu-navigation-basic');
+
+	        menu.slicknav();
+
+	        // Mark the clicked item as selected
+
+	        menu.on('click', 'a', function(){
+	            var a = $(this);
+
+	            a.siblings().removeClass('selected');
+	            a.addClass('selected');
+	        });
+	    });
+	    
+	</script>
+    </body>
+</html>
