@@ -1,13 +1,15 @@
 body,html{
+    
     position: relative;
     scoll-behaviour:smooth;
     -webkit-scroll-behaviour:smooth;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: poiret-one;
     line-height: 50px;
     font-weight: 500;
     font-size:110% ;
+    
 }
 ul{
     list-style: none;
@@ -71,8 +73,28 @@ footer{
 
 }
 .projo {
-	margin-top: 400px;
+	margin-top: 200px;
     margin-bottom: 90px;
+}
+.box{
+    overflow: hidden;
+    height: 200px;
+    width: 300px;
+    border: 1px solid #b0120a;
+    transition: all ease .2s;
+}
+.box:hover{
+    transform: scale(1.1);
+    background-color: #200;
+    color: #fff;
+}
+#hero{
+    height: 100vh;
+    background-image: url("/img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(40%);
+    
 }
 #hero a {
     text-decoration: none;
@@ -219,17 +241,24 @@ footer{
 }
 /*id's styles*/
 #hero {
+   
+    height: 100vh;
     background-size: cover;
     background:#200 ;
 	padding-top: 60px;
 }
 #work {
+    
+    text-align: center;
 	padding-top: 50px;
+}
+#work h2{
+    font-size: 1.5em;
 }
 #about {
     text-align: center;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 150px 0;
+    padding: 10px 0;
     font-size: 1.5em;
 }
