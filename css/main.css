@@ -11,6 +11,9 @@ body,html{
     font-size:110% ;
     
 }
+nav{
+    margin-right: 180px;
+}
 ul{
     list-style: none;
 }
@@ -88,14 +91,14 @@ footer{
     background-color: #200;
     color: #fff;
 }
-#hero{
+/*#hero{
     height: 100vh;
     background-image: url("/img/hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(40%);
     
-}
+}*/
 #hero a {
     text-decoration: none;
     text-align: center;
@@ -120,13 +123,14 @@ footer{
     height: 60px;
 	background-color: #fff;
     position: fixed;
-
+      
     width: 100%;
     top: 0px;
 }
 .logo {
+    margin-left: 150px;
     font-weight: 600;
-	font-family: tangerine;
+	font-family: poiret-one;
     font-size: 1.5em;
     color: black;
     transition: color .4s ease;
