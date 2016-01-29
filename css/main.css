@@ -314,6 +314,7 @@ textarea {
     resize: vertical;
 }
 button{
+    cursor: pointer;
     font-family: poiret-one;
     font-weight: 900;
     font-size: 1.2em;
@@ -327,3 +328,26 @@ button:hover{
     background-color: #330000;
     padding: 2.3% 6%;
 }
+#thank_you{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5%;
+    font-size: 1.5em;
+    
+}
+.thanks{
+    background-color: #eeeeee;
+    padding: 5%;
+}
+a{text-decoration: none;}
+.thanks i{
+    transition: all .2s ease;
+    color: #b0120a
+}
+
+.back_home{
+    padding: 2%;
+    color: #200;
+}
+#thank_you a:hover{background-color:#330000;color: #fff;}
