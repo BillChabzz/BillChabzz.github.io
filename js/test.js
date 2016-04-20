@@ -7,7 +7,7 @@ var toggle = $(".open"),
            x : 1000,
            autoAlpha: 0,
            
-       }) 
+       }); 
     });
     
 });
