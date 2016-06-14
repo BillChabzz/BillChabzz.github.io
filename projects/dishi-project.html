@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bill Colin Munene | Front end Developer</title>
+    <meta content="Front-End Web Developer learning as I develop new projects - Kenya,Nairobi." name="description">
+    <meta content="HTML5, CSS3, Javascript,Nairobi-Kenya,aspiring front-end developer" name="keywords">
+    <link href="favicon.ico" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.7/remodal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.7/remodal-default-theme.min.css">
+    <link rel="stylesheet" href="../css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'> 
+</head>
+    <body>   
+    <header class="nav-bar">
+        <div class="nav-left">
+            <a class="logo" href="../index.html"><img src="../assets/nav-icons/trip-suitcase.png"/></a>
+        </div>
+        <div class="nav-right">
+              <ul class="menu">
+                <li><a data-remodal-target="modal"><img src="../assets/nav-icons/avatar.png" alt="about-me"/></a></li>
+                <li><a href="#"><img src="../assets/nav-icons/mail.png" alt="contact-me"/></a></li>
+              </ul>
+        </div>
+    </header>
+    <div id="barba-wrapper">    
+        <section class="barba-container">    
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-12">
+                    <div class="box">
+                       <div class="proj-image">
+                        
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p>Content</p>
+                        <p>Content</p>
+                        <p>Content</p>
+                    </div>
+                    <div class="box">
+                        <p>Content</p>
+                        <p>Content</p>
+                        <p>Content</p>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </div>
+    <!--modal content-->
+      <div class="remodal" data-remodal-id="modal">
+          <button data-remodal-action="close" class="remodal-close"></button>
+          <h1>About me</h1>
+          <p>
+            Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+          </p>
+          <br>
+          <!--<button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+          <button data-remodal-action="confirm" class="remodal-confirm">OK</button>-->
+        </div>
+    <!--overlay end-->    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.7/remodal.js"></script>        
+<script src="../js/s-rv/scrollreveal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/barba.min.js"></script>        
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.box',{ reset: true, duration:1000},70);
+    </script>    
+</body>
+</html>    
